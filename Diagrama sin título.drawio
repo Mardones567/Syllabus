@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T06:13:13.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.104" version="20.2.7" etag="1z6g38wxStC5C8aJqOJ2" type="github"><diagram id="nNRB3FYroDZcuy6VNHdO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-05T15:53:01.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27" etag="rOJ3j5h-137QiL5NeYAz" version="20.2.8" type="github">
+  <diagram id="nNRB3FYroDZcuy6VNHdO" name="Página-1">
+    <mxGraphModel dx="433" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-1" value="Entrenador abstracta " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-4" value="&#xa;&#xa;---------------------------------&#xa;Metodos:&#xa;    Utilizar objeto:&#xa;    Crear objeto:&#xa;    estado:" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
