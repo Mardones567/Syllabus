@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T16:37:25.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27" etag="nqeu5JXkedHbS9evGAq0" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T16:44:07.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27" etag="ih6JPrODLMEFPRV99LKN" version="20.2.8" type="github">
   <diagram id="nNRB3FYroDZcuy6VNHdO" name="Página-1">
-    <mxGraphModel dx="433" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="368" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z5m_l2Ay39GD2w98-U8z-1" value="Entrenador abstracta " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="160" height="220" as="geometry" />
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-1" value="Liga Programón" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-510" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="z5m_l2Ay39GD2w98-U8z-4" value="Atributos:&#xa;    nombre:str&#xa;    energia: int&#xa;    programones:list&#xa;    objetos : list&#xa;&#xa;---------------------------------&#xa;Metodos:&#xa;    entrenamiento():&#xa;    crear_objeto():&#xa;    estado_entrenador():" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-1">
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-4" value="Atributos:&#xa;    Entrenadores:list&#xa;    Perdedores:list&#xa;    ronda_actual:int&#xa;    campeon : object&#xa;---------------------------------&#xa;Metodos:&#xa;    resumen_campeonato()&#xa;    simular_ronda()" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-1">
           <mxGeometry y="30" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="z5m_l2Ay39GD2w98-U8z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z5m_l2Ay39GD2w98-U8z-5" target="z5m_l2Ay39GD2w98-U8z-7">
@@ -66,7 +66,7 @@
         <mxCell id="z5m_l2Ay39GD2w98-U8z-43" value="Programón abstractacta" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="230" y="10" width="160" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="z5m_l2Ay39GD2w98-U8z-44" value="Atributos:&#xa;    nombre:str&#xa;    nivel__private: int&#xa;    programones:list&#xa;    experiencia : int&#xa;    tipo : str&#xa;   vida__private : int&#xa;    ataque : int&#xa;    defensa : int&#xa;    velocida : int&#xa;&#xa;---------------------------------&#xa;Metodos:&#xa;    entrenamiento()&#xa;    luchar()&#xa;    &#xa;    @proporty&#xa;     vida()&#xa;    @vida.setter&#xa;    vida()&#xa;&#xa;    @Property&#xa;    nivel()&#xa;&#xa;    &#xa;&#xa;    @nivel.setter&#xa;&#xa;    nivel()&#xa;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-43">
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-44" value="Atributos:&#xa;    nombre:str&#xa;    nivel__private: int&#xa;    programones:list&#xa;    experiencia : int&#xa;    tipo : str&#xa;   vida__private : int&#xa;    ataque : int&#xa;    defensa : int&#xa;    velocida : int&#xa;    ventaja_tipo: int&#xa;&#xa;---------------------------------&#xa;Metodos:&#xa;    entrenamiento()&#xa;    luchar()&#xa;    &#xa;    @proporty&#xa;     vida()&#xa;    @vida.setter&#xa;    vida()&#xa;&#xa;    @Property&#xa;    nivel()&#xa;&#xa;    &#xa;&#xa;    @nivel.setter&#xa;&#xa;    nivel()&#xa;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-43">
           <mxGeometry y="30" width="160" height="470" as="geometry" />
         </mxCell>
         <mxCell id="z5m_l2Ay39GD2w98-U8z-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="z5m_l2Ay39GD2w98-U8z-44" target="z5m_l2Ay39GD2w98-U8z-47">
@@ -84,6 +84,42 @@
         </mxCell>
         <mxCell id="z5m_l2Ay39GD2w98-U8z-48" value="Atributos:&#xa;    nombre:str&#xa;    nivel__private: int&#xa;    programones:list&#xa;    experiencia : int&#xa;    tipo : str&#xa;   vida__private : int&#xa;    ataque : int&#xa;    defensa : int&#xa;    velocida : int&#xa;&#xa;---------------------------------&#xa;Metodos:&#xa;    entrenamiento()&#xa;    luchar()&#xa;    &#xa;    @proporty&#xa;     vida()&#xa;    @vida.setter&#xa;    vida()&#xa;&#xa;    @Property&#xa;    nivel()&#xa;&#xa;    @nivel.setter&#xa;&#xa;    nivel()&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-47">
           <mxGeometry y="30" width="160" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-49" value="Fuego" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="160" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-50" value="Atributos:&#xa;    nombre:str&#xa;    nivel__private: int&#xa;    programones:list&#xa;    experiencia : int&#xa;    tipo : str&#xa;   vida__private : int&#xa;    ataque : int&#xa;    defensa : int&#xa;    velocida : int&#xa;&#xa;---------------------------------&#xa;Metodos:&#xa;    entrenamiento()&#xa;    luchar()&#xa;    &#xa;    @proporty&#xa;     vida()&#xa;    @vida.setter&#xa;    vida()&#xa;&#xa;    @Property&#xa;    nivel()&#xa;&#xa;    @nivel.setter&#xa;&#xa;    nivel()&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-49">
+          <mxGeometry y="30" width="160" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-51" value="" style="endArrow=none;html=1;rounded=0;exitX=1.006;exitY=0.535;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z5m_l2Ay39GD2w98-U8z-44" target="z5m_l2Ay39GD2w98-U8z-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="438.68421052631584" as="sourcePoint" />
+            <mxPoint x="210" y="496.31578947368416" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-52" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-51">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-62" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dnone%3Bhtml%3D1%3Brounded%3D0%3BexitX%3D1.006%3BexitY%3D0.535%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3BentryX%3D0.25%3BentryY%3D0%3BentryDx%3D0%3BentryDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22390.96000000000004%22%20y%3D%22291.45000000000016%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22480%22%20y%3D%22400%22%20as%3D%22targetPoint%22%2F%3E%3CArray%20as%3D%22points%22%3E%3CmxPoint%20x%3D%22440%22%20y%3D%22340%22%2F%3E%3C%2FArray%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%221%22%20style%3D%22resizable%3D0%3Bhtml%3D1%3Balign%3Dright%3BverticalAlign%3Dbottom%3B%22%20connectable%3D%220%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%221%22%20relative%3D%221%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="555" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z5m_l2Ay39GD2w98-U8z-44" target="z5m_l2Ay39GD2w98-U8z-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="560" as="sourcePoint" />
+            <mxPoint x="300" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-64" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-63">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-67" value="Agua" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="640" width="160" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="z5m_l2Ay39GD2w98-U8z-68" value="Atributos:&#xa;    nombre:str&#xa;    nivel__private: int&#xa;    programones:list&#xa;    experiencia : int&#xa;    tipo : str&#xa;   vida__private : int&#xa;    ataque : int&#xa;    defensa : int&#xa;    velocida : int&#xa;&#xa;---------------------------------&#xa;Metodos:&#xa;    entrenamiento()&#xa;    luchar()&#xa;    &#xa;    @proporty&#xa;     vida()&#xa;    @vida.setter&#xa;    vida()&#xa;&#xa;    @Property&#xa;    nivel()&#xa;&#xa;    @nivel.setter&#xa;&#xa;    nivel()&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="z5m_l2Ay39GD2w98-U8z-67">
+          <mxGeometry y="30" width="160" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
